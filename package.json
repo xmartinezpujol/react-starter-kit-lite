@@ -1,7 +1,7 @@
 {
-  "name": "react-elastic",
+  "name": "react-starter-kit-lite",
   "version": "1.0.0",
-  "description": "Elasticsearch + React components",
+  "description": "Lightweight Starter Boilerplate project for React",
   "main": "webpack.config.js",
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -29,13 +29,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xmartinezpujol/react-elastic.git"
+    "url": "git+https://github.com/xmartinezpujol/react-starter-kit-lite.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xmartinezpujol/react-elastic/issues"
+    "url": "https://github.com/xmartinezpujol/react-starter-kit-lite/issues"
   },
-  "homepage": "https://github.com/xmartinezpujol/react-elastic#readme",
+  "homepage": "https://github.com/xmartinezpujol/react-starter-kit-lite#readme",
   "snyk": true
 }
