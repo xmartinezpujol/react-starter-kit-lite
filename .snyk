@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -20,3 +20,8 @@ patch:
         patched: '2018-12-07T22:15:06.756Z'
     - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
         patched: '2018-12-07T22:15:06.756Z'
+  'npm:tough-cookie:20170905':
+    - webpack-cli > codecov > request > tough-cookie:
+        patched: '2026-01-14T09:08:00.357Z'
+        id: 'npm:tough-cookie:20170905'
+        path: webpack-cli > codecov > request > tough-cookie
